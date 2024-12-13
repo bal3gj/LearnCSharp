@@ -13,3 +13,15 @@ https://anderson02.com/main/
 - ドメイン駆動開発
 - Xamarin.Forms
 - SQLServer
+
+## 演習
+1. GitHubアカウントの作成（アカウントを持っていない場合のみ）  
+参考：https://docs.github.com/ja/get-started/start-your-journey/creating-an-account-on-github  
+2. Visual Studioで .NET Framework コンソールアプリのプロジェクトを新規作成し、ビルドができることを確認
+3. GitHubにプライベートリポジトリを作成して、上記2で作成したプロジェクトをコミット＆プッシュ
+4. 「No00」というブランチを新規作成してチェックアウト
+5. 以下のサイトの演習問題をNo.00を解いて、その実装結果をNo00ブランチにコミット＆プッシュ  
+https://www.cc.kyoto-su.ac.jp/~mmina/bp1/hundredKnocksBasic.html
+6. No.00が実装できたらNo.01、No.02・・・の順に実装を進める（その際、かならず演習問題ごとにブランチを分ける）
+
+※ 上記3のリポジトリについて、GitHubの当該リポジトリの設定画面からコラボレーター「bal3gj」の追加をお願いします（進捗の確認用です）
