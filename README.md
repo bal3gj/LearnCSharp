@@ -24,7 +24,10 @@ https://anderson02.com/main/
 https://www.cc.kyoto-su.ac.jp/~mmina/bp1/hundredKnocksBasic.html
 6. No.00が実装できたらNo.01、No.02・・・の順に実装を進める（その際、かならず演習問題ごとにブランチを分ける）
 
+※ Gitについての基本的な使い方については以下を参考にしてください。  
+https://github.com/bal3gj/LearnCSharp/blob/main/Git%E5%9F%BA%E7%A4%8E%E7%9F%A5%E8%AD%98%E7%B7%A8%EF%BD%9E%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%BE%E3%81%A7.md  
 ※ 上記3のリポジトリについて、GitHubの当該リポジトリの設定画面からコラボレーター「bal3gj」の追加をお願いします（進捗の確認用です）
+
 
 ## 演習（WPF）
 準備中...
