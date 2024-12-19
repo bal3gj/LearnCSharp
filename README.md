@@ -18,7 +18,7 @@ https://anderson02.com/main/
 1. GitHubアカウントの作成（アカウントを持っていない場合のみ）  
 参考：https://docs.github.com/ja/get-started/start-your-journey/creating-an-account-on-github  
 2. Visual Studioで .NET Framework コンソールアプリのプロジェクトを新規作成し、ビルドができることを確認
-3. GitHubにプライベートリポジトリを作成して、上記2で作成したプロジェクトをコミット＆プッシュ
+3. GitHubにリポジトリ（パブリックでもプライベートでもどちらでも）を作成して、上記2で作成したプロジェクトをコミット＆プッシュ
 4. 「No00」というブランチを新規作成してチェックアウト
 5. 以下のサイトの演習問題をNo.00を解いて、その実装結果をNo00ブランチにコミット＆プッシュ  
 https://www.cc.kyoto-su.ac.jp/~mmina/bp1/hundredKnocksBasic.html
@@ -30,8 +30,12 @@ https://github.com/bal3gj/LearnCSharp/blob/main/Git%E5%9F%BA%E7%A4%8E%E7%9F%A5%E
 - Gitクライアントアプリについて.md  
 https://github.com/bal3gj/LearnCSharp/blob/main/Git%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6.md  
   
-※ 上記3のリポジトリについて、GitHubの当該リポジトリの設定画面からコラボレーター「bal3gj」の追加をお願いします（進捗の確認用です）
+※ 上記3のリポジトリについて、もしリポジトリをプライベートに設定された場合はGitHubの当該リポジトリの設定画面からコラボレーター「bal3gj」の追加をお願いします（進捗の確認用です）
 
 
 ## 演習（WPF）
-準備中...
+WPFの演習問題をこちらにまとめています。  
+https://github.com/bal3gj/LearnCSharp/blob/main/WPF-Exercises.md  
+
+GitHubにWPF演習用のリポジトリを1つ新規作成し、WPF演習用のソリューションをコミットしてください。  
+演習問題ごとにそのソリューションにプロジェクトを追加してください。  
