@@ -1,0 +1,92 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ppPackages/
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.user
+*.suo
+*.vcxproj.user
+*.dotCover
+
+# VS Code settings
+.vscode/
+
+# Auto-generated files
+Generated_Code/
+
+# Packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio temp files
+*.ide.*
+.idea/
+.vs/
+*.vs/
+
+# Backup & cache files
+*~ 
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Logs
+*.log
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# StyleCop
+StyleCopReport.xml
+
+# TeamCity
+_TeamCity/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Local history
+.localhistory/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac files
+.DS_Store
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+
+# Lock files
+*.lock
