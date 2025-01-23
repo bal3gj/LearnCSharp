@@ -19,9 +19,27 @@ namespace LearnCSharpExercises
 
         static void Main(string[] args)
         {
-            Console.Write("input number: ");
-            string input = Console.ReadLine();
-            Console.WriteLine($"your number is {input}");
+            string input; // 入力された文字列格納用
+            int num; // 入力された文字列を整数でパースした結果を格納する用
+            bool check = false; // 整数かどうかの判定フラグ 整数ならtrue、それ以外ならfalse
+            
+            do
+            {
+                Console.Write("input number: ");
+                input = Console.ReadLine();
+
+                if (int.TryParse(input, out num) == false)
+                {
+                    Console.WriteLine($"整数を入力してください");
+                }
+                else
+                {
+                    check = true;
+                }
+
+            } while (check == false); // 整数が入力されるまで上記繰り返す
+
+            Console.WriteLine($"your number is {num}");
         }
     }
 }
