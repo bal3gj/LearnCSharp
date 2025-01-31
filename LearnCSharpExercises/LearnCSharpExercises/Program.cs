@@ -8,8 +8,49 @@ namespace LearnCSharpExercises
 {
     internal class Program
     {
+
+        //No. 08 正の整数?
+        //整数値を入力させ、値が正であればpositiveと表示するプログラムを作成せよ。ただし0は正には含まない。
+
+        //【実行例、下線部は入力例】
+        //$ ./knock08
+        //input number: 1
+        //positive
+        //$ ./knock08
+        //input number: -1
+        //$ ./knock08
+        //input number: 0
+        //$
+
         static void Main(string[] args)
         {
+            while (true)
+            {
+                Console.Write("input number: ");
+                var val = Console.ReadLine();
+
+                if (val == "quit") // quit と入力されたら終了
+                {
+                    break;
+                }
+
+                int num;
+
+                if (int.TryParse(val, out num) == false)
+                {
+                    Console.WriteLine("整数を入力してください。");
+                    continue;
+                }
+
+                if (num > 0)
+                {
+                    Console.WriteLine("positive");
+                }
+                else
+                {
+                    // NOP
+                }
+            }
         }
     }
 }
