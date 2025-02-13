@@ -21,8 +21,9 @@ https://anderson02.com/main/
 3. GitHubにリポジトリ（パブリックでもプライベートでもどちらでも）を作成して、上記2で作成したプロジェクトをコミット＆プッシュ
 4. 「No00」というブランチを新規作成してチェックアウト
 5. 以下のサイトの演習問題をNo.00を解いて、その実装結果をNo00ブランチにコミット＆プッシュ  
-https://www.cc.kyoto-su.ac.jp/~mmina/bp1/hundredKnocksBasic.html
-6. No.00が実装できたらNo.01、No.02・・・の順に実装を進める（その際、かならず演習問題ごとにブランチを分ける）
+基礎編 https://www.cc.kyoto-su.ac.jp/~mmina/bp1/hundredKnocksBasic.html  
+基礎編以降 https://www.cc.kyoto-su.ac.jp/~mmina/bp1/hundredKnocks.html  
+7. No.00が実装できたらNo.01、No.02・・・の順に実装を進める（その際、かならず演習問題ごとにブランチを分ける）
 
 ※ Gitについての基本的な使い方については以下を参考にしてください。  
 - Git基礎知識編～インストールまで.md  
