@@ -30,7 +30,7 @@ namespace LearnCSharpExercises
         {
             int num = 0;
 
-            while (num <= 0)
+            while (true)
             {
                 Console.Write("input number: ");
                 var val = Console.ReadLine();
@@ -39,6 +39,10 @@ namespace LearnCSharpExercises
                 {
                     Console.WriteLine("整数を入力してください。");
                     continue;
+                }
+                else
+                {
+                    break;
                 }
             }
 
